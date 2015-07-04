@@ -8,6 +8,26 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RootObject : NSObject
+@protocol CommonProtocol
+
+-(void)Message:(NSString*)str;
+-(void)LoopbackMessage:(NSString*)str;
+
+@end
+
+
+
+@interface RootObject : NSObject <CommonProtocol>
+
+-(void)Message:(NSString*)str;
+-(void)LoopbackMessage:(NSString*)str;
+
+
+-(void)startLocalServer:(NSString*)str;
+-(void)stopLocalServer;
+-(void)startClientConnection:(NSString*)str;
+-(void)stopClientConnection;
+-(void)sendMessage:(NSString*)msg;
+-(void)sendLoopbackMessage:(NSString*)msg;
 
 @end

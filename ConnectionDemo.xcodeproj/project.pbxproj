@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CB81D071B46062F00567DA1 /* logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB81D061B46062F00567DA1 /* logger.m */; };
 		4CCD9C181B45F88B00E46010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD9C171B45F88B00E46010 /* AppDelegate.m */; };
 		4CCD9C1A1B45F88B00E46010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD9C191B45F88B00E46010 /* main.m */; };
 		4CCD9C1C1B45F88B00E46010 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD9C1B1B45F88B00E46010 /* Images.xcassets */; };
 		4CCD9C1F1B45F88B00E46010 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD9C1D1B45F88B00E46010 /* MainMenu.xib */; };
 		4CCD9C2B1B45F88B00E46010 /* ConnectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD9C2A1B45F88B00E46010 /* ConnectionDemoTests.m */; };
+		4CCD9C371B45F8AC00E46010 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD9C351B45F8AC00E46010 /* MainWindow.m */; };
+		4CCD9C381B45F8AC00E46010 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD9C361B45F8AC00E46010 /* MainWindow.xib */; };
+		4CCD9C3B1B45FA9700E46010 /* RootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD9C3A1B45FA9700E46010 /* RootObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CB81D061B46062F00567DA1 /* logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logger.m; sourceTree = "<group>"; };
+		4CB81D081B460AF600567DA1 /* logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
 		4CCD9C111B45F88B00E46010 /* ConnectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCD9C151B45F88B00E46010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCD9C161B45F88B00E46010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +41,11 @@
 		4CCD9C241B45F88B00E46010 /* ConnectionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCD9C291B45F88B00E46010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCD9C2A1B45F88B00E46010 /* ConnectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionDemoTests.m; sourceTree = "<group>"; };
+		4CCD9C341B45F8AC00E46010 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		4CCD9C351B45F8AC00E46010 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		4CCD9C361B45F8AC00E46010 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		4CCD9C391B45FA9700E46010 /* RootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootObject.h; sourceTree = "<group>"; };
+		4CCD9C3A1B45FA9700E46010 /* RootObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,13 @@
 				4CCD9C1B1B45F88B00E46010 /* Images.xcassets */,
 				4CCD9C1D1B45F88B00E46010 /* MainMenu.xib */,
 				4CCD9C141B45F88B00E46010 /* Supporting Files */,
+				4CCD9C341B45F8AC00E46010 /* MainWindow.h */,
+				4CCD9C351B45F8AC00E46010 /* MainWindow.m */,
+				4CCD9C361B45F8AC00E46010 /* MainWindow.xib */,
+				4CCD9C391B45FA9700E46010 /* RootObject.h */,
+				4CCD9C3A1B45FA9700E46010 /* RootObject.m */,
+				4CB81D061B46062F00567DA1 /* logger.m */,
+				4CB81D081B460AF600567DA1 /* logger.h */,
 			);
 			path = ConnectionDemo;
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 			files = (
 				4CCD9C1C1B45F88B00E46010 /* Images.xcassets in Resources */,
 				4CCD9C1F1B45F88B00E46010 /* MainMenu.xib in Resources */,
+				4CCD9C381B45F8AC00E46010 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +231,9 @@
 			files = (
 				4CCD9C1A1B45F88B00E46010 /* main.m in Sources */,
 				4CCD9C181B45F88B00E46010 /* AppDelegate.m in Sources */,
+				4CCD9C3B1B45FA9700E46010 /* RootObject.m in Sources */,
+				4CB81D071B46062F00567DA1 /* logger.m in Sources */,
+				4CCD9C371B45F8AC00E46010 /* MainWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +423,7 @@
 				4CCD9C301B45F88B00E46010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CCD9C311B45F88B00E46010 /* Build configuration list for PBXNativeTarget "ConnectionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +432,7 @@
 				4CCD9C331B45F88B00E46010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

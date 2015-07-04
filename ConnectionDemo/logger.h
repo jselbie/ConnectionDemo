@@ -10,4 +10,13 @@
 #define ConnectionDemo_logger_h
 
 
+@protocol LogEventHandler
+
+-(void)onLogEvent:(NSString*)str;
+
+@end
+
+void LogEvent(NSString* format, ...);
+void SetLogHandler(id<LogEventHandler> handler);
+
 #endif
